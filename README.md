@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My GitHub-style Markdown Page</title>
-        <link rel="stylesheet" href="path/to/github-markdown.css">
-        <style>
-            .markdown-body {
-                box-sizing: border-box;
-                min-width: 200px;
-                max-width: 980px;
-                margin: 0 auto;
-                padding: 45px;
-            }
-            @media (max-width: 767px) {
-                .markdown-body {
-                    padding: 15px;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <article class="markdown-body">
-            <!-- Your rendered Markdown HTML goes here -->
-            <h1>My Awesome Project</h1>
-            <p>This is a paragraph with some <strong>bold text</strong> and <em>italic text</em>.</p>
-            <pre><code>console.log("Hello, GitHub-style!");</code></pre>
-        </article>
-    </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:powderblue;"></body>
+ 
+<button>Click me</button>
+
+</body>
+    <h1>Yo Tone, vscode is pretty cool</h1>
+    <p>The select element is used to create a drop-down list.</p>
+
+<form action="/action_page.php">
+  <label for="siblings">Choose a sibling:</label>
+  <select name="sibling" id="sibling">
+    <option value="afo">afo</option>
+    <option value="ade">ade</option>
+    <option value="jumi">jumi</option>
+    <option value="leye">leye</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to your favorite sibling".</p>
+<img src="https://i1.rgstatic.net/ii/profile.image/272562311659535-1441995327557_Q512/Adeolu-Mojibola.jpg" alt="">   
+ <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+
+
+
+</body>
+</html>
